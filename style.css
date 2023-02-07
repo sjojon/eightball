@@ -1,0 +1,20 @@
+body {
+    background-color: #42584A;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+#textBox {
+    text-align: center;
+}
+
+#ball {
+    width: 150px;
+}
