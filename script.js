@@ -9,9 +9,9 @@ let eightBall = '';
 //view
 updateView()
 function updateView() {
-    let nameTxt = userName ? `Hello ${userName}! ` : "Fill out name. ";
-    let question = userQuestion ? `You asked: ${userQuestion}` : "Ask a";
-    let answer = eightBall ? `The wisdom of the ball says: ${eightBall}` : "Question. ";
+    let nameTxt = userName ? `Hello ${userName}! ` : "Fill out your name. ";
+    let question = userQuestion ? `You asked: ${userQuestion}` : "";
+    let answer = eightBall ? `The wisdom of the ball says: ${eightBall}` : "Ask a Question.";
     document.getElementById('app').innerHTML = /*html*/`
     <h1>Magic 8 ball</h1><br>
     <div id="textBox">
